@@ -1,6 +1,9 @@
+"use client";
+
 import { useState, useEffect } from "react";
-import { createContainer, deleteContainer } from "../utils/azureApi"; // Ensure this file exists and exports the required functions
-import { getAssignments } from "../utils/moodleApi"; // Ensure this file exists and exports the required function
+import { createContainer, deleteContainer } from "../utils/azureApi";
+import { getAssignments } from "../utils/moodleApi";
+
 
 export default function Home() {
   interface Assignment {
